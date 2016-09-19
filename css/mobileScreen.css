@@ -1,0 +1,21 @@
+@media only screen and (max-width: 414px) {
+    .wrap .top  .webIcon{
+        display: none;
+    }
+    .wrap .top .topMenu{
+        display: none;
+    }
+    .wrap .top .topNav{
+        width: 80%;
+        visibility: visible;
+        float: none;
+        margin: 0 auto;
+    }
+    .wrap .top .topNav > ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .wrap .top  .topNav>ul>li{
+        width: 25%;
+    }
+}
