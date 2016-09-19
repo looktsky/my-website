@@ -200,7 +200,11 @@
     font-size: 14px;
     line-height: 30px;
 }
-
+.wrap .main  .musicList>ul>li>p>em{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
 .wrap .main .musicList>ul>li>a{
     overflow: hidden;
 }
