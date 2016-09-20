@@ -185,8 +185,10 @@
     display: inline-block;
     position: relative;
     box-shadow: 3px 3px 8px  #666;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
     animation: show 1s;
-    margin: 5px ;
     width: 32.3%;
 
 }
@@ -259,111 +261,14 @@
     color: #ffffff;
 }
 
-/*音乐播放器*/
-.wrap .main .playBox{
-    display: none;
-    border-radius: 2px;
-    position: relative;
-    min-height: 500px;
-    width: 60%;
-    border: 1px solid black;
-    margin: 40px auto;
-}
-.wrap .main .playBox .lycris{
-    position: absolute;
-    top:0;
-    left:0;
-    width: 30%;
-    min-width: 200px;
-    height: 100%;
-}
-.wrap .main .playBox .lycris iframe{
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    width: 100%;
-    min-width: 100px;
-    max-width: 500px;
-    height: 60px;
-    margin-left: -51%;
-
-}
-
-.wrap .main .playBox .img{
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top:0;
-    right:0;
-    width: 71%;
-    min-width: 200px;
-    height: 100%;
-}
-
-
-
-
-/*歌词样式*/
-.wrap .main #paper01{
-    overflow: scroll;
-    color: red;
-    text-align: center;
-    width: 97%;
-    line-height: 24px;
-    font-size: 12px;
-    text-align: center;
-    height: 90%;
-    z-index: 1000;
-    visibility: hidden;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    position: absolute;
-    bottom: 50px;
-    left:0;
-}
-
-.wrap .main #paper01:after{
-    content: "_";
-    -webkit-animation:flash 0.6s steps(2,start) infinite;
-    -o-animation:flash 0.6s steps(2,start) infinite;
-    animation:flash 0.6s  steps(2,start) infinite;
-
-}
-.wrap .main #paper01.end:after{
-    display: none;
-}
-@keyframes flash {
-    0%{
-        visibility: visible;
-    }
-    100%{
-        visibility:hidden ;
-    }
-}
-@-webkit-keyframes flash {
-    0%{
-        visibility: visible;
-    }
-    100%{
-        visibility:hidden ;
-    }
-}
-
-
-
-
-
-
-
-
 
 @keyframes show {
     from {opacity:0.1;margin-top:4%}
-    to {opacity:1;margin-top:1%}
+    to {opacity:1;margin-top:0.5%}
 }
 @-webkit-keyframes show {
     from {opacity:0.1;margin-top:4%}
-    to {opacity:1;margin-top:1%}
+    to {opacity:1;margin-top:0.5%}
 }
 
 /*底部栏样式*/
